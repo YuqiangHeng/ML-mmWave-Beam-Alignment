@@ -1,0 +1,240 @@
+begin_<points> Base Station 28 GHz 4x4 MIMO
+project_id 1
+inactive
+invisible
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+nVertices 1
+641.338594162700820 435.216399814069180 10.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 0
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 90.00000
+end_<pattern>
+power 30.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<route> Mobile Device Route
+project_id 2
+inactive
+invisible
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+spacing 1.00000
+nVertices 6
+483.197895588859920 438.477032708320390 2.000000000000000
+636.447644720910030 451.519564289429750 2.000000000000000
+647.859860081807370 461.301462975261810 2.000000000000000
+642.153752401358700 665.091018930096080 2.000000000000000
+651.120493042063690 677.318392287386130 2.000000000000000
+681.281347924435290 677.318392287386130 2.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration yes
+is_transmitter no
+is_receiver yes
+begin_<receiver> 
+begin_<pattern> 
+antenna 2
+waveform 1
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<route>
+begin_<points> BS 16x16 MIMO
+project_id 4
+inactive
+invisible
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+nVertices 1
+578.121009649043120 557.409398267150100 10.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 1
+waveform 2
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 30.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<route> Omni Rx Route
+project_id 5
+active
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+spacing 0.10000
+nVertices 23
+596.182326637223700 661.779197576457820 2.000000000000000
+595.245342186702150 631.944179554585960 2.000000000000000
+596.973471519980420 625.377209178972520 2.000000000000000
+604.044740747856960 621.497005113859470 2.000000000000000
+626.723702180896340 620.399182799315100 2.000000000000000
+633.988420482136920 610.917167694465430 2.000000000000000
+637.762050784917280 598.087554080436690 2.000000000000000
+636.801195504944760 581.936430919370080 2.000000000000000
+633.775272535018640 571.115402863518510 2.000000000000000
+626.197486706553830 565.676647837164640 2.000000000000000
+613.659155021219590 560.963947414842440 2.000000000000000
+602.305520758823260 553.427513630778320 2.000000000000000
+594.338618652479340 544.265088312158810 2.000000000000000
+592.516959825942760 531.552875027765590 2.000000000000000
+595.053714784581080 519.060199753611530 2.000000000000000
+605.576938570014820 516.662497931277130 2.000000000000000
+622.414983879169310 518.797091964237670 2.000000000000000
+633.935978254327550 519.488317197631430 2.000000000000000
+639.172544175366620 502.274201092658470 2.000000000000000
+639.176848284366090 487.657758098652950 2.000000000000000
+639.194196873666440 473.663013860114230 2.000000000000000
+625.049440286762430 466.496129618601340 2.000000000000000
+606.941908432713260 463.144227036848350 2.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<receiver> 
+begin_<pattern> 
+antenna 3
+waveform 2
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<route>
+begin_<points> BS Omni
+project_id 6
+active
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.078700000000012
+latitude 38.890700000000002
+visible no
+terrain
+end_<reference>
+nVertices 1
+578.121009649043120 557.409398267150100 10.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 3
+waveform 2
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 30.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
